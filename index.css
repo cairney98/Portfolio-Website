@@ -10,18 +10,16 @@ body {
 }
 * {
   font-family: Comfortaa, sans-serif;
-  color: white;
 }
 
 hr {
-  width: 30rem;
+  width: 40%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
 li {
-  padding: 0 2rem;
   font-size: 1.2rem;
 }
 
@@ -46,4 +44,5 @@ li {
 #portfolio {
   background-color: white;
   color: black;
+  max-width: 85%;
 }
