@@ -6,9 +6,44 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  font-size: 1.2rem;
+  background-attachment: fixed;
 }
 * {
   font-family: Comfortaa, sans-serif;
   color: white;
+}
+
+hr {
+  width: 30rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+li {
+  padding: 0 2rem;
+  font-size: 1.2rem;
+}
+
+#scroll-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0.2rem solid white;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+#scroll-btn:hover {
+  height: 5rem;
+  width: 5rem;
+  background-color: rgba(255, 255, 255, 0.247);
+
+  font-size: 1.5rem;
+}
+
+/*PORTFOLIO SECTION*/
+
+#portfolio {
+  background-color: white;
+  color: black;
 }
