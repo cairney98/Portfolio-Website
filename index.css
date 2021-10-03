@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./images/back-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 1.2rem;
+}
+* {
+  font-family: Comfortaa, sans-serif;
+  color: white;
+}
