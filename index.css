@@ -5,7 +5,7 @@ body {
   background-image: url(./images/back-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: 50% 50%;
   background-attachment: fixed;
 }
 * {
@@ -32,11 +32,8 @@ li {
   transition: 0.3s;
 }
 #scroll-btn:hover {
-  height: 5rem;
-  width: 5rem;
+  transform: scale(1.2);
   background-color: rgba(255, 255, 255, 0.247);
-
-  font-size: 1.5rem;
 }
 
 /*PORTFOLIO SECTION*/
@@ -44,5 +41,5 @@ li {
 #portfolio {
   background-color: white;
   color: black;
-  max-width: 85%;
+  max-width: 90%;
 }
