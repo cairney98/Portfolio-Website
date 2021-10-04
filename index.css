@@ -28,6 +28,9 @@ li {
 }
 
 #scroll-btn {
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.3rem;
   background-color: rgba(0, 0, 0, 0);
   border: 0.2rem solid white;
   height: 4rem;
@@ -43,8 +46,10 @@ li {
 /*PORTFOLIO SECTION*/
 
 #portfolio {
+  margin-top: 15rem;
   background-color: white;
   color: black;
   max-width: 90%;
   position: relative;
+  scroll-behavior: smooth;
 }
