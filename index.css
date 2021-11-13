@@ -2,10 +2,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(./images/back-image.jpg);
+  background-image: url(./images/back-image2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 50% 55%;
   background-attachment: fixed;
   animation: fadein 2s;
 }
@@ -24,6 +24,24 @@ body {
 
 .header {
   position: relative;
+}
+
+.btn {
+  font-size: 1.5rem;
+}
+
+#title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 9rem;
+  font-size: 6rem;
+}
+
+#links a {
+  font-size: 2.5rem;
+  transition: 0.3s;
+}
+#links a:hover {
+  transform: scale(115%);
 }
 
 hr {
