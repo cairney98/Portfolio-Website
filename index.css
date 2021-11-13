@@ -20,7 +20,6 @@ body {
 }
 * {
   font-family: Comfortaa, sans-serif;
-  font-size: 13px;
 }
 
 .header {
@@ -36,6 +35,8 @@ body {
 
 #links a {
   transition: 0.3s;
+  font-size: 1.5rem;
+  
 }
 #links a:hover {
   transform: scale(115%);
@@ -48,9 +49,7 @@ hr {
   transform: translateX(-50%);
 }
 
-li {
-  font-size: 1.7rem;
-}
+
 
 #scroll-btn {
   color: white;
