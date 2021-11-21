@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(./images/back-image2.jpg);
+  background-image: url(./images/back-image3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 55%;
@@ -26,16 +26,13 @@ body {
   position: relative;
 }
 
-
-
 #title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #links a {
   transition: 0.3s;
   font-size: 1.5rem;
-  
 }
 #links a:hover {
   transform: scale(115%);
@@ -48,8 +45,6 @@ hr {
   transform: translateX(-50%);
 }
 
-
-
 #scroll-btn {
   color: white;
   padding: 1.5rem;
@@ -58,12 +53,11 @@ hr {
   border: 0.2rem solid white;
   height: 4rem;
   width: 4rem;
-  border-radius: 100%;
   transition: 0.3s;
+  text-decoration: none;
 }
 #scroll-btn:hover {
-  transform: scale(1.2);
-  background-color: rgba(255, 255, 255, 0.247);
+  background-color: rgba(255, 255, 255, 0.322);
 }
 
 /*PORTFOLIO SECTION*/
@@ -75,4 +69,6 @@ hr {
   max-width: 90%;
   position: relative;
   scroll-behavior: smooth;
+  filter: drop-shadow(50%);
+  box-shadow: 10px 10px 50px 10px rgba(0, 0, 0, 0.486);
 }
