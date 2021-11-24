@@ -4168,7 +4168,7 @@ body.is-mobile.landing #footer {
   }
 }
 
-.icon-link:hover {
+.icon-link:hover, .icon-link:active {
   color: #fff;
 }
 
