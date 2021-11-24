@@ -1,162 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
+    <title>Michael Cairney Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <link rel="stylesheet" href="index.css" />
-    <script
-      src="https://kit.fontawesome.com/164d738bce.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
   </head>
-  
-  <body>
-  
-    <!--Title-->
-  
-    <div  class="container mt-5 pt-5 header " >
+  <body class="landing is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
      
-      
-      <h1 id="title" class=" text-center display-1 pt-5 text-white">
-        MICHAEL CAIRNEY
-      </h1>
-      <hr class="text-white" />
 
-      <!--Contact icons-->
-      <ul id="links" class="nav justify-content-center m-5 pb-5">
-  
-        <li class="nav-item mx-4">
-          <a href="#" class="nav-link text-white"
-            ><i class="fab fa-github"></i
-          ></a>
-        </li>
-        <li class="nav-item mx-4">
-          <a href="#" class="nav-link text-white"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-        </li>
-        <li class="nav-item mx-4">
-          <a href="#" class="nav-link text-white"
-            ><i class="fas fa-envelope"></i
-          ></a>
-        </li>
-         <li class="nav-item mx-4">
-          <a href="#" class="nav-link text-white"
-            ><i class="fas fa-download"></i> CV</a>
-        </li>
-      </ul>
+      <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <h2>Michael Cairney</h2>
+          <p>
+            Aspiring Web Developer <br />
+            Dedicated Self-Learner <br />
+          </p>
+          <section id = "links">
+  <ul class="icon-list">
+    <li class="icon-item">
+      <a href="https://github.com/cairney98" target="_blank" class="icon-link icon"><i class="fab fa-github"></i></a>
+    </li>
+    <li class="icon-item">
+      <a href="#" class="icon-link icon"><i class="fab fa-linkedin-in"></i></a>
+    </li>
+    <li class="icon-item">
+      <a href="#" class="icon-link icon"><i class="fas fa-envelope"></i></a>
+    </li>
+    <li class="icon-item">
+      <a href="#" class="icon-link icon"><i class="fas fa-file-download " id="icon-cv"></i><i id="cv">CV</i></a>
+    </li>    
+  </ul>
+</section>
+        </div>
+        <a href="#two" class="more scrolly">View Projects</a>
+      </section>
 
-      <!--Scroll down button-->
-      <div  class="text-center py-5">
-        <a href="#portfolio" id="scroll-btn">
-         View Portfolio
-        </a>
-      </div>
+
+      <!-- Two -->
+      <section id="two" class="wrapper alt style2">
+        <section class="spotlight">
+          <div class="image"><img src="images/MovieApp.jpg" alt="" /></div>
+          <div class="content">
+            <h2>Movie App</h2>
+            <p>
+              Responsive web app built using ReactJS and Tailwind css that
+              allows you to browse, sort and filter through a range of different
+              films and people provided by The Movie Data Base (TMBD) API.
+            </p>
+          </div>
+        </section>
+        <section class="spotlight">
+          <div class="image"><img src="images/Proj-img1.jpg" alt="" /></div>
+          <div class="content">
+            <h2>Project 2</h2>
+            <p>Coming soon.</p>
+          </div>
+        </section>
+        <section class="spotlight">
+          <div class="image"><img src="images/Proj-img1.jpg" alt="" /></div>
+          <div class="content">
+            <h2>Project 3</h2>
+            <p>Coming soon.</p>
+          </div>
+        </section>
+      </section>
+
+      -->
+
+      <!-- CTA -->
+      <section id="cta" class="wrapper style4">
+        <div class="inner">
+          <header>
+            <h2>Arcue ut vel commodo</h2>
+            <p>
+              Aliquam ut ex ut augue consectetur interdum endrerit imperdiet
+              amet eleifend fringilla.
+            </p>
+          </header>
+          <ul class="actions stacked">
+            <li><a href="#" class="button fit primary">Activate</a></li>
+            <li><a href="#" class="button fit">Learn More</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li>
+            <a href="#" class="icon brands fa-twitter"
+              ><span class="label">Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-facebook-f"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-dribbble"
+              ><span class="label">Dribbble</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Untitled</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
     </div>
 
-    <!--Portfolio section
-    ========================-->
-    
-    <div id="portfolio" class="container mb-5  p-4 pt-5 rounded text-center">
-      <h2 class="display-4 text-center">Portfolio</h2>
-      <hr class="text-dark mb-5" />
-
-      <!--Project 1-->
-      <div  class="row mt-5 pt-5">
-        <div class="col-md">
-          <img
-            src="./images/MovieApp.jpg"
-            class="img-thumbnail img-fluid"
-            alt=""
-          />
-        </div>
-
-        <div class="col-md mt-3 align-self-center">
-          <h3>Responsive movie app built using ReactJS, Tailwind CSS and TMDB API.</h3>
-          <p >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-            aperiam incidunt atque aliquam ad aspernatur vero eos laborum,
-            minima quaerat?
-          </p>
-          <ul class="nav justify-content-center mt-5">
-            <li class="nav-item mx-2">
-              <a href="https://clever-edison-6951f9.netlify.app/" target="_blank" class="btn btn-outline-primary">VISIT</a>
-            </li>
-            <li class="nav-item mx-2">
-              <li class="nav-item mx-2">
-                <a href="https://github.com/cairney98/movie-app" target="_blank" class="btn btn-outline-primary ">SOURCE</a>
-              </li>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!------------------->
-
-      <!--Project 2-->
-      <div class="row mt-5 pt-5">
-        <div class="col-sm">
-          <img
-            src="./images/Proj-img1.jpg"
-            class="img-thumbnail img-fluid"
-            alt=""
-          />
-        </div>
-
-        <div class="col-sm mt-3 align-self-center">
-          <h3>Project 2</h3>
-          <p >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-            aperiam incidunt atque aliquam ad aspernatur vero eos laborum,
-            minima quaerat?
-          </p>
-          <ul class="nav justify-content-center mt-5">
-            <li class="nav-item mx-2">
-              <button class="btn btn-outline-primary">VISIT</button>
-            </li>
-            <li class="nav-item mx-2">
-              <li class="nav-item mx-2">
-                <button class="btn btn-outline-primary ">SOURCE</button>
-              </li>
-            </li>
-          </ul>
-        </div>
-        <!--Project 3-->
-     <div class="row mt-5 pt-5">
-    <div class="col-sm">
-     <img
-      src="./images/Proj-img1.jpg"
-      class="img-thumbnail img-fluid"
-      alt=""
-      />
-      </div>
-
-  <div class="col-sm mt-3 align-self-center">
-    <h3>Project 3</h3>
-    <p >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-      aperiam incidunt atque aliquam ad aspernatur vero eos laborum,
-      minima quaerat?
-    </p>
-    <ul class="nav justify-content-center mt-5">
-      <li class="nav-item mx-2">
-        <button class="btn btn-outline-primary">VISIT</button>
-      </li>
-      <li class="nav-item mx-2">
-        <li class="nav-item mx-2">
-          <button class="btn btn-outline-primary ">SOURCE</button>
-        </li>
-      </li>
-    </ul>
- </div>
- </div>
-    <script
-      src="app.js"
-    ></script>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
