@@ -4072,7 +4072,7 @@ body.landing #page-wrapper {
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../images/back-image3.jpg");
   background-attachment: fixed;
-  background-position: center center;
+  background-position-y: 44.5%;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 0;
@@ -4141,7 +4141,7 @@ body.is-mobile.landing #footer {
   padding: 0 1.5rem;
   display: flex;
   flex-flow: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .icon-item {
