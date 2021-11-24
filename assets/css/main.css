@@ -2757,8 +2757,7 @@ button:disabled,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .spotlight .image {
@@ -2776,7 +2775,7 @@ button:disabled,
 }
 
 .spotlight .content {
-  padding: 2em 4em 0.1em 4em;
+  padding: 2em 4em 2em 4em;
   -moz-order: 2;
   -webkit-order: 2;
   -ms-order: 2;
@@ -4234,9 +4233,36 @@ body.is-mobile.landing #footer {
   border: solid 2px white;
   padding: 0.5rem 2rem;
   transition: 300ms;
-  margin-right: 2rem;
+}
+
+.btns {
+  display: flex;
+  gap: 1.5rem;
 }
 
 .proj-btn:hover {
   background-color: rgba(255, 255, 255, 0.199);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: start;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+
+}
+
+@media screen and (max-width: 980px) {
+  .logo-container {
+    justify-content: center;
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.logo {
+  width: 12%;
+  margin-bottom: 0.6rem;
 }
