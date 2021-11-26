@@ -3969,7 +3969,7 @@ body.is-preload #banner:after {
 }
 
 body.is-mobile #main > header {
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 /* Footer */
@@ -4079,11 +4079,11 @@ body.landing #footer {
   background-color: rgba(29, 36, 42, 0.9);
 }
 
-body.is-mobile.landing #page-wrapper {
+/* body.is-mobile.landing #page-wrapper {
   background: none;
-}
+} */
 
-body.is-mobile.landing #banner,
+/* body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
   background-image: -moz-linear-gradient(
       top,
@@ -4108,7 +4108,7 @@ body.is-mobile.landing .wrapper.style4 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 body.is-mobile.landing #footer {
   background-color: #1d242a;
@@ -4116,7 +4116,7 @@ body.is-mobile.landing #footer {
 
 :root {
   --bg: #dcdde1;
-  --color-icon: #535c68;
+  --color-icon: #7d8999;
   --social-icon1: #000000;
   --social-icon2: #0077b5;
   --social-icon3: #009124;
@@ -4133,12 +4133,12 @@ body.is-mobile.landing #footer {
 }
 
 .icon-list {
-  width: 50%;
+  width: 40%;
   max-width: 500rem;
-  padding: 0 1.5rem;
+  padding: 0 0rem;
   display: flex;
   flex-flow: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .icon-item {
@@ -4159,10 +4159,8 @@ body.is-mobile.landing #footer {
   margin: auto;
 }
 
-@media screen and (max-width: 480px) {
-  .icon-link {
-    font-size: 2.5rem;
-  }
+@media screen and (max-width: 736px) {
+ 
   .icon-list {
     width: 100%;
   }
