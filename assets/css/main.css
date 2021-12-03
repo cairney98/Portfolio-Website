@@ -4262,6 +4262,11 @@ body.is-mobile.landing #footer {
 }
 
 .logo {
-  width: 12%;
+  cursor: pointer;
+  width: 14%;
   margin-bottom: 0.6rem;
+  transition: all 0.5s;
+}
+.logo:hover {
+  transform: scale(105%);
 }
