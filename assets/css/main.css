@@ -2792,15 +2792,15 @@ button:disabled,
 }
 
 .spotlight:nth-child(1) {
-  background-color: rgba(23, 30, 75, 0.753);
+  background-color: rgba(36, 40, 75, 0.753);
 }
 
 .spotlight:nth-child(2) {
-  background-color: rgba(36, 7, 7, 0.692);
+  background-color: rgba(71, 27, 27, 0.753);
 }
 
 .spotlight:nth-child(3) {
-  background-color: rgba(11, 48, 19, 0.596);
+  background-color: rgba(33, 65, 40, 0.596);
 }
 
 .spotlight:nth-child(4) {
