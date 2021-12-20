@@ -1862,6 +1862,10 @@ header h3 + p {
   font-size: 1.1em;
 }
 
+p {
+  font-size: 1rem;
+}
+
 header h4 + p,
 header h5 + p,
 header h6 + p {
@@ -2757,7 +2761,6 @@ button:disabled,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  
 }
 
 .spotlight .image {
@@ -3921,7 +3924,6 @@ body.is-preload #banner:after {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  
 }
 
 #main > header h2 {
@@ -4161,13 +4163,13 @@ body.is-mobile.landing #footer {
 }
 
 @media screen and (max-width: 736px) {
- 
   .icon-list {
     width: 100%;
   }
 }
 
-.icon-link:hover, .icon-link:active {
+.icon-link:hover,
+.icon-link:active {
   color: #fff;
 }
 
@@ -4248,7 +4250,6 @@ body.is-mobile.landing #footer {
   justify-content: start;
   gap: 1.2rem;
   margin-bottom: 1.2rem;
-
 }
 
 @media screen and (max-width: 980px) {
